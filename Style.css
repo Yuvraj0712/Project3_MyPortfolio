@@ -12,10 +12,14 @@
     
 }
 
-html,body{
+html, body {
     height: 100%;
     width: 100%;
-    background-color: #18181A   ;
+    background-color: #18181A;
+    background-image: url('./Assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Fixed background attachment for the effect */
 }
 
 .nav{
@@ -34,7 +38,7 @@ transform: translateX(-3vw);
 .Top h4{
    font-weight: 500;
 }
-
+/* 
 #circle{
     height: 4vh;
     width: 4vh;
@@ -44,7 +48,7 @@ transform: translateX(-3vw);
     position: relative;
     align-items: center;
     justify-content: center;
-}
+} */
 
 
 .nav img{
@@ -135,7 +139,7 @@ transform: translateX(-3vw);
 .Aboutme h4{
     font-weight: 300;
     padding-left: 8vw;
-    width: 60%;
+    width: 62%;
     color: white;
 }
 
@@ -147,7 +151,7 @@ transform: translateX(-3vw);
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    box-shadow: 0 5px 5px 5px rgba(49, 38, 255, 0.155);
+    box-shadow: 0 5px 5px 5px rgba(191, 184, 255,0.150);;
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     margin-right: 20vh;
